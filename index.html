@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>getby-work</title>
+</head>
+<body>
+    <h1>Ó o Dom aí</h1>
+
+    <div class="areadoc">
+        <H2>Área do Círculo</H2>
+        <input type="number" id="raioc" placeholder="informe o raio do círculo">
+        <button onclick="raioc()" id="numero">Calcular Área</button>
+        <div id="resultadoc"></div>
+
+
+    </div>
+    <div class="arear">
+        <h2>Área do Retângulo</h2>
+        <input type="number" id="base" placeholder="insira o valor da base">
+        <input type="number" id="altura" placeholder="insira o valor da altura">
+        <button onclick="arear()">Calcular área</button>
+        <div id="resultadoar"></div>
+    </div>
+    <div class="areat">
+        <h2>Área do Triãngulo</h2>
+        <input type="number" id="baset" placeholder="insira o valor da base">
+        <input type="number" id="alturat" placeholder="insira o valor da altura">
+        <button onclick="areat()">Calcular Área</button>
+        <div id="resultadot"></div>
+    </div>
+    <div class="hipotenusa">
+        <h2>Cálculo da Hipotenusa</h2>
+        <input type="number" id="co" placeholder="informe o valor do cateto oposto">
+        <input type="number" id="ca" placeholder="informe o vlor do cateto adjacente">
+        <button onclick="hipotenusa()">Clcular Hipotenusa</button>
+        <div id="resultadoh"></div>
+    </div>
+    <div class="bas">
+        <h2>Bhaskara</h2>
+        <input type="number" id="valora" placeholder="insira o valor de a">
+        <input type="number" id="valorb" placeholder="insira o valor de b">
+        <input type="number" id="valorc" placeholder="insira o valor de c">
+        <button onclick="bhaskara()">Calcular as duas raízes</button>
+        <div id="resultadobas"></div>
+    </div>
+    <div class="media">
+        <h2>Calcular Média do Aluno</h2>
+        <input type="number" id="n1" placeholder="insira a primeira nota">
+        <input type="number" id="n2" placeholder="insira a segunda nota">
+        <input type="number" id="n3" placeholder="insira a terceira nota">
+        <button onclick="media()">Calcular Média</button>
+        <div id="resultadomedia"></div>
+    </div>
+
+    <div class="realtodolar">
+        <h2>Conversão de real para dolar</h2>
+        <input type="numer" id="real" placeholder="insira o valor em reais">
+        <input type="number" id="dolar" placeholder="insira o valor atual do dólar em relação ao real">
+        <button onclick="realind()">Converter</button>
+        <div id="resultadord"></div>
+    </div>
+    <div class="temperaturacf">
+        <h2>Conversão de temperatura de graus Celsius para Fahrenheith</h2>
+        <input type="numer" id="celsius" placeholder="insira a temperatura em graus celsius">
+        <button onclick="tempcf()">Converter</button>
+        <div id="resultadocf"></div>
+
+    </div>
+    <div class="vel">
+        <h2>Conversão de velocidade ( km/h para m/s)</h2>
+        <input type="number" id="kmh" placeholder="insira a velocidade em km/h">
+        <button onclick="vel()">Converter</button>
+        <div id="resultadovel"></div>
+    </div>
+
+    
+</body>
+</html>
