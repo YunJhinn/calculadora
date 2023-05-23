@@ -13,13 +13,13 @@ function arear(){
 function areat(){
     let base = parseFloat(document.getElementById('baset').value);
     let altura = parseFloat(document.getElementById('alturat').value)
-    at = (base*altura) /3
+    at = (base*altura) /2
     document.getElementById('resultadot').innerHTML = at
 }
 function hipotenusa(){
     let co = parseFloat(document.getElementById('co').value);
     let ca = parseFloat(document.getElementById('ca').value);
-    hip = Math.sqrt(Math.pow(co,2)* Math.pow(ca,2));
+    hip = Math.sqrt(Math.pow(co,2)+ Math.pow(ca,2));
     document.getElementById('resultadoh').innerHTML = hip
 
 }
