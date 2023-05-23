@@ -27,10 +27,10 @@ function bhaskara(){
     let a = parseFloat(document.getElementById('valora').value);
     let b = parseFloat(document.getElementById('valorb').value);
     let c = parseFloat(document.getElementById('valorc').value);
-    let delta = Math.pow(b,2) -1* (4*a*c)
+    let delta = parseFloat (Math.pow (b,2) -1* (4*a*c))
     console.log(delta)
-    x1 = (-1 * b + Math.sqrt(delta)) / (2*a)
-    x2 = (-1 * b - Math.sqrt(delta)) / (2*a)
+    x1 = parseFloat ((- b + Math.sqrt(delta)) / (2*a))
+    x2 = parseFloat ((- b - Math.sqrt(delta)) / (2*a))
     document.getElementById('resultadobas').innerHTML = "x1" + x1 + "x2" + x2
 }
 function media(){
