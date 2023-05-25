@@ -69,6 +69,15 @@ h1{
 .problema{
     margin: 20px 1300px 20px 150px;
 }
+.alert2{
+    font-size: 15px;
+    background-color: red;
+    
+    color: aliceblue;
+    margin: 0 50% 0 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
 
 
 
