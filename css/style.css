@@ -51,6 +51,7 @@ button::placeholder{
     margin: 0;
     
     background-color: #000000;
+    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-hand-drawn-math-blackboard-background-picture-image_1297774.jpg);
     
     
     
@@ -58,7 +59,9 @@ button::placeholder{
 h1{
     color: aliceblue;
     font-size: 60px;
-    padding-left: 500px;
+    
+    padding-left: 180px;
+    padding-top: 100px;
 }
 .foot{
     text-align: center;
@@ -78,6 +81,8 @@ h1{
     padding: 20px;
     border-radius: 20px;
 }
+
+
 
 
 
