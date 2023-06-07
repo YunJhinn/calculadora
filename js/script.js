@@ -1,3 +1,74 @@
+function calculadoracientifica(){
+    let n1 = parseInt(document.getElementById('N1').value)
+    console.log(n1)
+    let n2 = parseInt(document.getElementById('N2').value)
+    console.log(n2)
+    let sinal = document.getElementById('sinalcalculadora').value
+    console.log(sinal)
+    
+    
+    
+    switch(sinal){
+        case "+" :
+            soma()
+            
+            break
+        
+        case "-" :
+            subtracao()
+
+            break
+
+        case "*" :
+            multiplicacao()
+            break
+
+        case "/" :
+            divisao()
+            break
+
+    }
+}
+
+function soma() {
+    let n1 = parseInt(document.getElementById('N1').value)
+    console.log(n1)
+    let n2 = parseInt(document.getElementById('N2').value)
+    console.log(n2)
+    let soma = n1 + n2
+    document.getElementById('resultadocc').innerHTML= soma
+
+}
+function subtracao(){
+    let n1 = parseInt(document.getElementById('N1').value)
+    console.log(n1)
+    let n2 = parseInt(document.getElementById('N2').value)
+    console.log(n2)
+    let subtracao = n1 - n2
+    document.getElementById('resultadocc').innerHTML= subtracao
+}
+
+function multiplicacao(){
+    let n1 = parseInt(document.getElementById('N1').value)
+    console.log(n1)
+    let n2 = parseInt(document.getElementById('N2').value)
+    console.log(n2)
+     let multiplicacao = n1 * n2 
+    document.getElementById('resultadocc').innerHTML= multiplicacao
+
+}
+
+function divisao(){
+    let n1 = parseInt(document.getElementById('N1').value)
+    console.log(n1)
+    let n2 = parseInt(document.getElementById('N2').value)
+    console.log(n2)
+    let divisao = n1 / n2 
+    document.getElementById('resultadocc').innerHTML= divisao
+    
+
+}
+
 function raioc(){
     const pi = 3.14
     let raio = parseFloat(document.getElementById('raioc').value);
